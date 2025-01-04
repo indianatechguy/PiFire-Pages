@@ -269,3 +269,15 @@ Check that yout module that you were attempting to load is the correct module or
 ## Changing Modules Later, After Installation
 
 If you end up changing your PiFire configuration at some point down the line (like adding a pellet sensor, or changing the screen type), or even if you just want to fix a mistake you made during installation, you can go back and run wizard again by launching it from the Admin page.  
+
+## Development Branch Installation
+
+The development branch can be installed two ways: 
+
+By running the following command:
+```bash
+$ wget https://raw.githubusercontent.com/nebhead/pifire/main/auto-install/install.sh
+$ bash install.sh -dev
+```
+After the Pi Fire software is installed by selecting **Admin>System Updates** from the menu in the web UI.
+
